@@ -14,7 +14,7 @@ const server = http.createServer(app);
 
 // Initialize socket.io sever
 export const io = new Server(server, {
-  cors: {origin: '*'}
+  cors: {origin: 'https://quick-chat-vocl-gz5hcobtz-k-lite.vercel.app/'}
 })
 
 // Store online users
